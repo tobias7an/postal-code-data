@@ -1,7 +1,7 @@
 {
   "name": "postal-code-data",
-  "version": "0.0.1",
-  "description": "List of country postal code formats",
+  "version": "1.0.0",
+  "description": "Dataset of country postal code formats",
   "main": "index.js",
   "scripts": {},
   "repository": {
