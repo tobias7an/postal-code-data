@@ -23,9 +23,9 @@ const validate = (input, countryCode, sanitize) => {
 }
 
 module.exports = {
-  data,
-  sanitize,
-  get,
-  defaultData,
-  validate
+  postalCodeData: data,
+  getPostalCodeData: get,
+  defaultPostalCodeData: defaultData,
+  sanitizePostalCode: sanitize,
+  validatePostalCode: validate
 }

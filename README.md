@@ -11,7 +11,7 @@ This dataset may not be 100% accurate, complete or up to date, but aims to be su
 ### Usage
 `const {data} = require('postal-code-data')`
 or
-`import {data} from 'postal-code-data''`
+`import {data} from 'postal-code-data'`
 
 ### Types
 - 0 - No postal code.
