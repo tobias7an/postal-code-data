@@ -1,4 +1,4 @@
-const data = require('data')
+const data = require('./data')
 
 const sanitize = (input) => {
   return String(input).toUpperCase().replace(/[^A-Z0-9 \-]/g,'').substr(0,15)
