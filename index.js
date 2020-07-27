@@ -19,7 +19,9 @@ const get = (countryCode) => {
 const validate = (input, countryCode, sanitize) => {
   let testedValue = sanitize ? sanitize(input) : String(input)
   let countryData = get(countryCode)
-  return countryData.pattern.test(testedValue)
+
+  return countryData.pattern===0 || countryData.pattern.test(testedValue)
+  // If country has no pattern, return true. Otherwise, test against that pattern.
 }
 
 module.exports = {
