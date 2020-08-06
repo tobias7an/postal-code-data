@@ -20,8 +20,21 @@ const validate = (input, countryCode, sanitize) => {
   let testedValue = sanitize ? sanitize(input) : String(input)
   let countryData = get(countryCode)
 
-  return countryData.pattern===0 || countryData.pattern.test(testedValue)
-  // If country has no pattern, return true. Otherwise, test against that pattern.
+  // If country has no pattern, return true.
+  if(countryData.postalCodeType===0)
+    return true
+    
+  // If country has patten, test against that pattern.
+  else if(countryData.postalCodeType===1)
+    return countryData.pattern.test(testedValue)
+  
+  // If country has fixed value, it should already be correct as it was either set using module or checked and overwritten in db. Return true.
+  else if(countryData.postalCodeType===3)
+    return true
+  
+  // Other values are invalid
+  else
+    return false
 }
 
 module.exports = {
