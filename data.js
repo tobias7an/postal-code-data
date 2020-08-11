@@ -209,7 +209,7 @@ module.exports = [
 	{	countryCode: 'UG',		postalCodeType: 0,		pattern: 0}, // Verified C
 	{	countryCode: 'UA',		postalCodeType: 1,		pattern: /^[0-9]{5}$/, placeholder: '00000'}, // Verified
 	{	countryCode: 'AE',		postalCodeType: 0,		pattern: 0}, // Verified. PO Boxes are addresses. They should all be on the first line. C
-	{	countryCode: 'GB',		postalCodeType: 1,		pattern: /^[A-Z]{1,2}[0-9][0-9A-Z]?\s?[0-9][A-Z]{2}$/, placeholder: 'XX00 0XX'}, // Verified
+	{	countryCode: 'GB',		postalCodeType: 1,		pattern: /^[A-Z]{1,2}[0-9][0-9A-Z]?\s[0-9][A-Z]{2}$/, placeholder: 'XX00 0XX (space required)'}, // Verified. Space is required for DHL API
 	{	countryCode: 'US',		postalCodeType: 1,		pattern: /^[0-9]{5}(-[0-9]{4})?$/, placeholder: '00000 or 00000-0000'}, // Verified
 	{	countryCode: 'UM',		postalCodeType: 3,		pattern: '96898'}, // Verified C
 	{	countryCode: 'UY',		postalCodeType: 1,		pattern: /^[0-9]{5}$/, placeholder: '00000'}, // Verified
