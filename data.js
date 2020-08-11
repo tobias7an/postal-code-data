@@ -85,7 +85,7 @@ module.exports = [
 	{	countryCode: 'GD',		postalCodeType: 0,		pattern: 0}, // Verified C
 	{	countryCode: 'GP',		postalCodeType: 1,		pattern: /^971[0-9]{2}$/, placeholder: '971__'}, // Verified
 	{	countryCode: 'GT',		postalCodeType: 1,		pattern: /^[0-9]{5}$/, placeholder: '00000'}, // Verified
-	{	countryCode: 'GG',		postalCodeType: 1,		pattern: /^GY[0-9][0-9]?\s?[0-9][A-Z]{2}$/, placeholder: 'GY0 0XX'}, // Verified
+	{	countryCode: 'GG',		postalCodeType: 1,		pattern: /^GY[0-9][0-9]?\s[0-9][A-Z]{2}$/, placeholder: 'GY0 0XX'}, // Verified
 	{	countryCode: 'GN',		postalCodeType: 1,		pattern: /^[0-9]{3}$/, placeholder: '000'}, // Verified
 	{	countryCode: 'GW',		postalCodeType: 1,		pattern: /^[0-9]{4}$/, placeholder: '0000'}, // Verified
 	{	countryCode: 'GY',		postalCodeType: 0,		pattern: 0}, // Verified C
@@ -98,13 +98,13 @@ module.exports = [
 	{	countryCode: 'ID',		postalCodeType: 1,		pattern: /^[0-9]{5}$/, placeholder: '00000'},  // Verified
 	{	countryCode: 'IR',		postalCodeType: 1,		pattern: /^[0-9]{10}$/, placeholder: '0000000000'}, // Verified
 	{	countryCode: 'IQ',		postalCodeType: 1,		pattern: /^[0-9]{5}$/, placeholder: '00000'}, // Verified
-	{	countryCode: 'IE',		postalCodeType: 1,		pattern: /^[A-Z][0-9][0-9A-Z]?\s?[0-9A-Z]{4}$/, placeholder: 'X00 XXXX'}, // Verified
-	{	countryCode: 'IM',		postalCodeType: 1,		pattern: /^IM[0-9][0-9]?\s?[0-9][A-Z]{2}$/, placeholder: 'IM0 0XX'}, // Verified
+	{	countryCode: 'IE',		postalCodeType: 1,		pattern: /^[A-Z][0-9][0-9A-Z]?\s[0-9A-Z]{4}$/, placeholder: 'X00 XXXX'}, // Verified
+	{	countryCode: 'IM',		postalCodeType: 1,		pattern: /^IM[0-9][0-9]?\s[0-9][A-Z]{2}$/, placeholder: 'IM0 0XX'}, // Verified
 	{	countryCode: 'IL',		postalCodeType: 1,		pattern: /^[0-9]{5}([0-9]{2})?$/, placeholder: '0000000'}, // Verified
 	{	countryCode: 'IT',		postalCodeType: 1,		pattern: /^[0-9]{5}$/, placeholder: '00000'}, // Verified
 	{	countryCode: 'CI',		postalCodeType: 1,		pattern: /^1?[0-9]{2}$/, placeholder: '00'}, // Verified. 2-digit is mandatory, 3-digit is 2-digit prefixed by 1 for delivery.
 	{	countryCode: 'JM',		postalCodeType: 0,		pattern: 0}, // Verified. Postal code is not in effect. C
-	{	countryCode: 'JP',		postalCodeType: 1,		pattern: /^[0-9]{3}-?[0-9]{4}$/, placeholder: '000-0000'}, // Verified
+	{	countryCode: 'JP',		postalCodeType: 1,		pattern: /^[0-9]{3}-[0-9]{4}$/, placeholder: '000-0000'}, // Verified
 	{	countryCode: 'JO',		postalCodeType: 1,		pattern: /^[0-9]{5}$/, placeholder: '00000'}, // Verified
 	{	countryCode: 'KZ',		postalCodeType: 1,		pattern: /^[0-9]{6}$/, placeholder: '000000'}, // Verified
 	{	countryCode: 'KE',		postalCodeType: 1,		pattern: /^[0-9]{5}$/, placeholder: '00000'}, // Verified

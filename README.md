@@ -23,6 +23,7 @@ or
 - `1.0.0` - Jul 21, 2020. Initial compilation & commit.
 - `1.0.4` - Jul 27, 2020. Bugfixes in validation.
 - `1.0.6` - Aug 10, 2020. GB postal code now requires space for shipping carrier API.
+- `1.0.7` - Aug 11, 2020. Japan postal code now requires dash for shipping carrier API. GB dependency postal codes now require space.
 
 ### License
 MIT.
