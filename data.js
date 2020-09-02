@@ -178,7 +178,7 @@ module.exports = [
 	{	countryCode: 'SL',		postalCodeType: 0,		pattern: 0}, //Verified C
 	{	countryCode: 'SG',		postalCodeType: 1,		pattern: /^[0-9]{6}$/, placeholder: '000000'}, // Verified
 	{	countryCode: 'SX',		postalCodeType: 0,		pattern: 0}, //Verified C
-	{	countryCode: 'SK',		postalCodeType: 1,		pattern: /^[0-9]{3}\s?[0-9]{2}$/, placeholder: '00000'}, //Verified
+	{	countryCode: 'SK',		postalCodeType: 1,		pattern: /^[0-9]{3}\s[0-9]{2}$/, placeholder: '00000'}, //Verified
 	{	countryCode: 'SI',		postalCodeType: 1,		pattern: /^[0-9]{4}$/, placeholder: '0000'}, //Verified
 	{	countryCode: 'SB',		postalCodeType: 0,		pattern: 0}, //Verified C
 	{	countryCode: 'SO',		postalCodeType: 1,		pattern: /^[0-9]{5}$/, placeholder: '00000'}, //Verified
