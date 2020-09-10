@@ -189,7 +189,7 @@ module.exports = [
 	{	countryCode: 'LK',		postalCodeType: 1,		pattern: /^[0-9]{5}$/, placeholder: '00000'}, //Verified
 	{	countryCode: 'SD',		postalCodeType: 1,		pattern: /^[0-9]{5}$/, placeholder: '00000'}, //Verified
 	{	countryCode: 'SR',		postalCodeType: 0,		pattern: 0}, //Verified C
-	{	countryCode: 'SE',		postalCodeType: 1,		pattern: /^[0-9]{3}\s?[0-9]{2}$/, placeholder: '000 00'}, //Verified
+	{	countryCode: 'SE',		postalCodeType: 1,		pattern: /^[0-9]{3}\s[0-9]{2}$/, placeholder: '000 00'}, // Verified. Space is required for DHL API
 	{	countryCode: 'CH',		postalCodeType: 1,		pattern: /^[0-9]{4}$/, placeholder: '0000'}, //Verified
 	{	countryCode: 'SY',		postalCodeType: 0,		pattern: 0}, //Verified C
 	{	countryCode: 'TW',		postalCodeType: 1,		pattern: /^[0-9]{3}(-?[0-9]{2})$/, placeholder: '000 or 00000'}, // Verified
