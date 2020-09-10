@@ -1,12 +1,14 @@
 # postal-code-data
 
-Barebones JS dataset of country postal code types, regular expressions and placeholders for use in address form postal code validation. Includes a few utility functions for common usage with inputs.
+Barebones JS dataset of country postal code types, regular expressions and placeholders for use in address form postal code validation for shipping with major shipping companies. Includes a few utility functions for common usage with inputs.
 
 Country list source: [postal-country-region-data](https://github.com/tobias7an/postal-country-region-data). These two repos are used together and countries should not be added/removed from one without the same on the other.
 
-Data is cross-referenced between the [Universal Postal Union Postal Addressing Systems Database](http://www.upu.int/en/activities/addressing/postal-addressing-systems-in-member-countries.html), postal service websites, and propietary commercial shipping address databases.  
+Data is cross-referenced between the [Universal Postal Union Postal Addressing Systems Database](http://www.upu.int/en/activities/addressing/postal-addressing-systems-in-member-countries.html), postal service websites, shipping company APIs, and propietary commercial shipping address databases. 
 
 This dataset may not be 100% accurate, complete or up to date, but aims to be sufficiently complete for production use and preferable to available alternatives.
+
+This dataset is targeted at supporting shipping API connections with DHL Express, UPS, FedEx, USPS and CanadaPost.
 
 ### Usage
 `const {data} = require('postal-code-data')`
