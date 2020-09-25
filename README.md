@@ -28,6 +28,7 @@ or
 - `1.0.7` - Aug 11, 2020. Japan postal code now requires dash for shipping carrier API. GB dependency postal codes now require space.
 - `1.0.8` - Sep 02, 2020. Slovakia postal code now requires space for DHL API.
 - `1.0.9` - Sep 09, 2020. Swedish postal code now requires space for DHL API.
+- `1.0.10` - Sep 24, 2020. CZ postal code now requires space for DHL API.
 
 ### License
 MIT.

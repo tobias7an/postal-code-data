@@ -55,7 +55,7 @@ module.exports = [
 	{	countryCode: 'CU',		postalCodeType: 1,		pattern: /^[0-9]{5}$/, placeholder: '00000'}, // Verified
 	{	countryCode: 'CW',		postalCodeType: 0,		pattern: 0}, // Verified C
 	{	countryCode: 'CY',		postalCodeType: 1,		pattern: /^[0-9]{4}$/, placeholder: '0000'}, // Verified
-	{	countryCode: 'CZ',		postalCodeType: 1,		pattern: /^[0-9]{3}\s?[0-9]{2}$/, placeholder: '000 00'}, // Verified
+	{	countryCode: 'CZ',		postalCodeType: 1,		pattern: /^[0-9]{3}\s[0-9]{2}$/, placeholder: '000 00'}, // Verified
 	{	countryCode: 'DK',		postalCodeType: 1,		pattern: /^[0-9]{4}$/, placeholder: '0000'}, // Verified
 	{	countryCode: 'DJ',		postalCodeType: 0,		pattern: 0}, // Verified C
 	{	countryCode: 'DM',		postalCodeType: 0,		pattern: 0}, // Verified C
